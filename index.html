@@ -1,22 +1,63 @@
-<!-- Declaring HTML version -->
+<!-- Declaring the HTML version -->
 <!DOCTYPE html>
 
 <!-- Opening tag of a website -->
-<html>
+<html lang="en-us">
 
 	<!-- Opening head tag to put info in there such as title, script, and link -->
 	<head>
+		<!-- Character set for the page -->
+		<meta charset="UTF-8">
 		<!-- Declaring a title of the page with this tag -->
 		<title>Budget, school, sports and more!</title>
 		<!-- Linking our stylesheet to the page with this code -->
 		<link type="text/css" rel="stylesheet" href="styles/design.css" />
+		<!-- Connecting jquery library, to the page -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+		<script src="scripts/script.js"></script>
+		<script type="text/javascript"> 
+		window.defaultStatus = "Welcome to the large URL page"
+	function changeStatus() {
+    	window.status = "Click me to go to the Unleashed home page"
+	}
+
+	function changeDefaultStatus() {
+	  window.defaultStatus = window.document.statusForm.messageList.options[window.document.statusForm.messageList.selectedIndex].text
+	}
+</script>
 	<!-- Closing head tag to execute all the code within our head -->
 	</head>
 	
 	<!-- Opening body tag to execute all the code that will appear on the page -->		
 	<body>
-	<h1> Welcome to my website </h1>
-	
+		<header>
+			<ul>
+				<li><a href="http://www.drive.google.com" title="Store, organize and edit your files"> Google Drive</a></li>
+				<li><a href="https://graniteschools.instructure.com" target="_blank">Canvas</a></li>			
+				<li><a href="https://portal.graniteschools.org">Grades</a></li>
+				<li><a href="https://www.youtube.com">YouTube</a></li>
+				<li><a href="https://www.learn4good.com">Learn4Good</a></li>
+				<li><a href="https://www.hoodamath.com">Hoodamath</a></li>
+				<li><a href="https://www.gmail.com">Gmail</a></li>
+				<li><a href="" target="_self"> Ping Pong</a></li>
+				<li><a href="" target="_self">Soccer</a></li>
+				<li><a href="" target="_self">Volleyball</a></li>
+				<li><a href="" target="_self">Basketball</a></li>
+				<li><a href="" target="_self">Boredom-help</a></li>
+				<li><a href="" target="_self">About me</a></li>
+			</ul>
+		
+		</header>
+		<div class="main">
+			  
+			
+		</div>
+		<footer class="footer">
+			<a href=""
+			
+			
+			
+		</footer>
 	<!-- End of body tag for all the code to execute on the page that is visible -->
 	</body>
 
