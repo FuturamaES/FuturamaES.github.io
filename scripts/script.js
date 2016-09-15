@@ -2,12 +2,15 @@
 /* global a */
 /* global on */
 
-window.defaultStatus = "Welcome to the large URL page"
+$(function() {
+  $("footer").hide().fadeIn(2000);
+  
+  var colors = ['#FFFFFF', '#FFCCBF', '#FEBACE'];
+  var random = Math.floor(Math.random()*colors.length);
+  $('.main').addClass('red');
+  $('button').on('click', function() {
+      $('.page').css('background-color', colors[random]);
+  });
+  
+});
 
-function changeStatus() {
-    window.status = "Click me to go to the Unleashed home page"
-}
-
-function changeDefaultStatus() {
-    window.defaultStatus = window.document.statusForm.messageList.options[window.document.statusForm.messageList.selectedIndex].text
-}
