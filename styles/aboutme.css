@@ -1,24 +1,30 @@
 html, body {
-    background: #AAAAAA;
-    -webkit-background-size: 100%;
-    -moz-background-width: 100%;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    display: block;
     width: 99%;
-    height: 98%;
+    height: 99%;
     
+}
+
+body {
+    margin: 5px 5px 5px 5px;
+    max-width: 1450px;
+    min-width: 900px;
+    max-height: 900px;
+    min-height: 600px;
 }
 header {
     background: #CCCCCC;
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    margin: 0 0 0 0;
+    margin: 0 20px 0 20px;
     position: relative;
     width: 98%;
     padding: 0 0 0 0;
     
-}
-.main{
-    font-family: Helvetica;
 }
 li {
     font-family: sans-serif;
@@ -50,41 +56,25 @@ a:hover {
     color: red;
 
 }
-h1 {
-    text-align: center;
-}
 
-table, tr, td, th {
-    border: 1px solid black;
-    padding: 0 0 0 0;
-    margin: 0 auto;
-}
-.footer {
-    margin: 0 auto;
-    right: 0;
-    left: 0;
-    bottom: 5px;
-    position: absolute;
-    border: 2px dotted black;
-    background-color: white;
-    padding: 0;
-    height: 20%;
-    width: 99%;
-}
-.footer:click {
-   background-color: grey;
-}
-.movement {
-    visibility: hidden;
-}
 aside {
     float: right;
-    border: 1px solid black;
+    border: 3px dashed black;
     width: 20%;
-    height: 80%;
-    margin: 0 30px 0 0;
+    height: 82%;
+    margin: 5px 10px 0 0;
     position: relative;
     bottom: 40px;
     padding: 0 0 0 0;
     
+}
+p {
+    margin: 20px 20px 20px 20px;
+}
+.dyk{
+    float: right;
+    position: relative;
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0 80px 5px 0;
 }
