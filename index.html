@@ -15,16 +15,7 @@
 		<!-- Connecting jquery library, to the page -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 		<script src="scripts/script.js"></script>
-		<script type="text/javascript"> 
-		window.defaultStatus = "Welcome to the large URL page"
-	function changeStatus() {
-    	window.status = "Click me to go to the Unleashed home page"
-	}
-
-	function changeDefaultStatus() {
-	  window.defaultStatus = window.document.statusForm.messageList.options[window.document.statusForm.messageList.selectedIndex].text
-	}
-</script>
+		<meta http-equiv="refresh" content="30" />
 	<!-- Closing head tag to execute all the code within our head -->
 	</head>
 	
@@ -39,21 +30,26 @@
 				<li><a href="https://www.learn4good.com">Learn4Good</a></li>
 				<li><a href="https://www.hoodamath.com">Hoodamath</a></li>
 				<li><a href="https://www.gmail.com">Gmail</a></li>
-				<li><a href="" target="_self"> Ping Pong</a></li>
+				<li><a href="HTML/pingpong.html" target="_blank"> Ping Pong</a></li>
 				<li><a href="http://www.boredbutton.com/" target="_self">Boredom-help</a></li>
 				<li><a href="HTML/aboutme.html" target="_blank">About me</a></li>
 			</ul>
 		
 		</header>
 		<div class="main">
-			  <p> This website isn't working with phones or tablets the way it should. Many updates coming soon.</p>
-			
+			<h1 class="mh1"> Some animations hover over them for some magic </h1>
+			<div class="square"></div>
+			<div class="square1"></div>
+			<div class="square2"></div>
+			<div class="square3"></div>
+			<div class="square4"></div>
+			<div class="square5"><p id="clickme">Click me</p></div>
 		</div>
 		<footer class="footer">
 			<p> Follow our Ping Pong club on Facebook and @Twitter </p>
 			<a href="https://www.facebook.com"><img src="images/facebook.png" alt="Facebook page" title="Follow our club on facebook and like our page" class="fb"/> </a>
 			<a href="https://www.twitter.com"><img src="images/twitter.png" alt="Twitter page" title="Follow our club on twitter and like our page" class="tw"/> </a>
-			<button type="button">color</button>
+			<button type="button">Change color</button>
 		</footer>
 	<!-- End of body tag for all the code to execute on the page that is visible -->
 	</body>

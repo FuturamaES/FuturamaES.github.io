@@ -14,6 +14,7 @@ header {
     text-align: center;
     margin: 0 10px 0 10px;
     position: relative;
+    top: 5px;
     width: 98%;
     padding: 0 0 0 0;
     
@@ -32,10 +33,14 @@ li, a {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
-    margin: 5px 0 5px 10px;
+    margin: 5px 5px 5px 5px;
     position: relative;
     text-align: center;
     
+}
+
+.mh1 {
+    font-size: 20px;
 }
 a {
     font-weight: bold;
@@ -65,7 +70,7 @@ table, tr, td, th {
     right: 0;
     left: 0;
     bottom: 5px;
-    position: absolute;
+    position: fixed;
     border: 2px dotted black;
     background-color: white;
     padding: 0;
@@ -113,4 +118,114 @@ button {
     display: block;
     bottom: 1.5em;
     right: 1em;
+}
+header:hover {
+    transform: translate3d(5px, 0px, 0px);
+    transition: transform 0.3s linear;
+}
+.square {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 80px 80px 80px 80px;
+    transition: transform 0.5s ease-in-out;
+}
+.square:hover {
+    transform: scale(2.0);
+
+}
+.square1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 80px 80px 80px 80px;
+    transition: all 2.0s ease-in-out;
+    
+}
+
+.square1:hover {
+    transform: translateX(50px) rotate(180deg);
+  
+   
+}
+
+ .square2{
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+    -webkit-animation: slide 2.0s infinite;
+   animation: slide 5s infinite;
+  
+} 
+
+@-webkit-keyframes slide {
+    from {left: 500px;}
+    to {left: 700px;}
+}
+
+@keyframes slide {
+    from {left: 500px;}
+    to {left: 700px;}
+}
+
+ .square3{
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    -webkit-animation: slide 2.0s infinite;
+   animation: backslide 5s infinite;
+  
+} 
+@-webkit-keyframes backslide {
+    from {left: 500px;}
+    to {left: 300px;}
+}
+
+@keyframes backslide {
+    from {left: 500px;}
+    to {left: 300px;}
+}
+
+ .square4{
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: relative;
+    bottom: 350px;
+    left: 500px;
+    -webkit-animation: fastslide 2.0s infinite;
+   animation: fastslide 5s infinite;
+  
+} 
+@-webkit-keyframes fastslide {
+    from {left: 1100px;}
+    to {left: 105px;}
+}
+
+@keyframes fastslide {
+    from {left: 1100px;}
+    to {left: 105px;}
+}
+
+.square5{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    bottom: 350px;
+    left: 80%;
+    transition: all 2.0s ease-in-out;
+} 
+.square5:hover {
+    transform: translateX(100px);
+}
+#clickme {
+    text-align: center;
+    font-family: sans-serif;
 }
