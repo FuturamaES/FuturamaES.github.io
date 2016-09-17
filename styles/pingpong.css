@@ -1,0 +1,35 @@
+html {
+    width: auto;
+    height: 100%;
+}
+body {
+    
+   
+    font-family: 'Times New Roman';
+    background: linear-gradient(120deg, red, red, 60%, blue)no-repeat, center center fixed;
+    background-size: cover;
+    
+}
+
+table,th,td  {
+    background: white;
+    border: 1px solid black;
+    padding: 5px 5px 5px 5px;
+    margin: 0 auto;
+}
+table {
+    width: auto;
+    height: auto;
+    
+}
+.fr {
+    font-weight: bold;
+}
+h1 {
+    font-size: 18px;
+    margin: 20px 20px 2px 20px;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    
+}
