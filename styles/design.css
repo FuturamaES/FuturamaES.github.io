@@ -1,12 +1,13 @@
-html, body {
+html,
+body {
     background: #AAAAAA;
     -webkit-background-size: 100%;
     -moz-background-width: 100%;
     width: auto;
     height: auto;
     margin: 0 0 0 0;
-    
 }
+
 header {
     background: #CCCCCC;
     border: 1px solid black;
@@ -18,33 +19,36 @@ header {
     width: auto;
     height: auto;
     padding: 0 0 0 0;
-    
 }
-.main{
+
+.main {
     font-family: Helvetica;
     width: auto;
     height: auto;
 }
+
 li {
     font-family: sans-serif;
 }
+
 li:nth-child(1) {
     margin: 0 0 0 0;
 }
 
-li, a {
+li,
+a {
     display: inline-block;
     list-style-type: none;
     text-decoration: none;
     margin: 5px 5px 5px 5px;
     position: relative;
     text-align: center;
-    
 }
 
 .mh1 {
     font-size: 20px;
 }
+
 a {
     font-weight: bold;
     border: 1px solid black;
@@ -52,22 +56,28 @@ a {
     border-right: none;
     text-align: center;
 }
+
 a:visited {
     color: blue;
 }
+
 a:hover {
     color: red;
-
 }
+
 h1 {
     text-align: center;
 }
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
     border: 1px solid black;
     padding: 0 0 0 0;
     margin: 0 auto;
 }
+
 .footer {
     margin: 0 auto;
     right: 0;
@@ -80,14 +90,16 @@ table, tr, td, th {
     padding: 0;
     height: 20%;
     width: 99%;
-    
 }
+
 .footer:click {
-   background-color: grey;
+    background-color: grey;
 }
+
 .movement {
     visibility: hidden;
 }
+
 aside {
     float: right;
     border: 1px solid black;
@@ -97,37 +109,37 @@ aside {
     position: relative;
     bottom: 40px;
     padding: 0 0 0 0;
-    
 }
- p {
-     margin: 20px 20px 20px 20px;
- }
+
+p {
+    margin: 20px 20px 20px 20px;
+}
+
 footer p {
     margin: 5px 5px 5px 5px;
 }
 
-a:nth-child(2), a:nth-child(3) {
+a:nth-child(2),
+a:nth-child(3) {
     border: none;
     position: fixed;
-   
-   
-    
 }
+
 a:nth-child(2) {
     position: fixed;
     bottom: 0;
- 
 }
+
 a:nth-child(3) {
-    
     left: 3em;
     bottom: -1px;
-  
 }
+
 .csw {
     font-size: 18px;
     font-weight: bold;
 }
+
 button {
     float: right;
     position: relative;
@@ -135,10 +147,12 @@ button {
     bottom: 1.5em;
     right: 1em;
 }
+
 header:hover {
     transform: translate3d(5px, 0px, 0px);
     transition: transform 0.3s linear;
 }
+
 .square {
     width: 100px;
     height: 100px;
@@ -146,26 +160,25 @@ header:hover {
     margin: 80px 80px 80px 80px;
     transition: transform 0.5s ease-in-out;
 }
+
 .square:hover {
     transform: scale(2.0);
-
 }
+
 .square1 {
     width: 100px;
     height: 100px;
     background: red;
     margin: 80px 80px 80px 80px;
     transition: all 2.0s ease-in-out;
-    
 }
 
 .square1:hover {
     transform: translateX(50px) rotate(180deg);
     border-radius: 10px;
-   
 }
 
- .square2{
+.square2 {
     width: 50px;
     height: 50px;
     background: red;
@@ -173,22 +186,28 @@ header:hover {
     bottom: 350px;
     left: 500px;
     -webkit-animation: slide 2.0s infinite;
-   animation: slide 5s infinite;
-  
-  
-} 
-
-@-webkit-keyframes slide {
-    from {left: 500px;}
-    to {left: 700px;}
-    }
-
-@keyframes slide {
-    from {left: 500px;}
-    to {left: 700px;}
+    animation: slide 5s infinite;
 }
 
- .square3{
+@-webkit-keyframes slide {
+    from {
+        left: 500px;
+    }
+    to {
+        left: 700px;
+    }
+}
+
+@keyframes slide {
+    from {
+        left: 500px;
+    }
+    to {
+        left: 700px;
+    }
+}
+
+.square3 {
     width: 50px;
     height: 50px;
     background: red;
@@ -196,20 +215,28 @@ header:hover {
     bottom: 200px;
     left: 500px;
     -webkit-animation: slide 2.0s infinite;
-   animation: backslide 5s infinite;
-  
-} 
+    animation: backslide 5s infinite;
+}
+
 @-webkit-keyframes backslide {
-    from {left: 500px;}
-    to {left: 300px;}
+    from {
+        left: 500px;
+    }
+    to {
+        left: 300px;
+    }
 }
 
 @keyframes backslide {
-    from {left: 500px;}
-    to {left: 300px;}
+    from {
+        left: 500px;
+    }
+    to {
+        left: 300px;
+    }
 }
 
- .square4{
+.square4 {
     width: 50px;
     height: 50px;
     background: red;
@@ -217,20 +244,28 @@ header:hover {
     bottom: 350px;
     left: 500px;
     -webkit-animation: fastslide 2.0s infinite;
-   animation: fastslide 5s infinite;
-  
-} 
+    animation: fastslide 5s infinite;
+}
+
 @-webkit-keyframes fastslide {
-    from {left: 1100px;}
-    to {left: 105px;}
+    from {
+        left: 1100px;
+    }
+    to {
+        left: 105px;
+    }
 }
 
 @keyframes fastslide {
-    from {left: 800px;}
-    to {left: 105px;}
+    from {
+        left: 800px;
+    }
+    to {
+        left: 105px;
+    }
 }
 
-.square5{
+.square5 {
     width: 100px;
     height: 100px;
     background: red;
@@ -238,13 +273,19 @@ header:hover {
     bottom: 350px;
     left: 80%;
     transition: all 2.0s ease-in-out;
-} 
+}
+
 .square5:hover {
     transform: translateX(100px);
 }
+
 #clickme {
     text-align: center;
     font-family: 'Times New Roman';
     padding: 0;
     margin: 0;
+}
+
+img[alt] {
+    background: yellow;
 }

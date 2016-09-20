@@ -1,0 +1,16 @@
+Cache manifest
+cache :
+/stylesheets/application.css
+network:
+*
+
+localStorage: A key-value database.
+stored indefinetely on the client. stores strings only.
+
+goals:
+setup the demo application
+add an appcache
+update the cache
+use the js api
+store and use databas
+use the appcache with rails.

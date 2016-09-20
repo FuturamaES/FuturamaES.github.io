@@ -1,35 +1,84 @@
 html {
     width: auto;
-    height: 100%;
+    height: auto;
 }
+
 body {
-    
-   
     font-family: 'Times New Roman';
     background: linear-gradient(120deg, red, red, 60%, blue)no-repeat, center center fixed;
     background-size: cover;
-    
 }
 
-table,th,td  {
+table,
+th,
+td {
     background: white;
     border: 1px solid black;
     padding: 5px 5px 5px 5px;
     margin: 0 auto;
 }
+
 table {
     width: auto;
     height: auto;
-    
 }
+
 .fr {
     font-weight: bold;
 }
+
 h1 {
     font-size: 18px;
     margin: 20px 20px 2px 20px;
     padding: 0;
     position: relative;
     text-align: center;
-    
+    font-family: sans-serif, Helvetica, serif, 'Times New Roman';
+}
+
+h3 {
+    margin: 20px 20px;
+}
+
+.two {
+    text-align: center;
+}
+
+tr>td:nth-child(1) {
+    font-weight: bold;
+}
+
+tr>td:nth-child(2) {
+    font-style: italic;
+}
+
+tr>td:nth-child(3) {
+    font-family: 'Times New Roman', sans-serif, serif;
+}
+
+tr {
+    background-color: #FFFFFF;
+}
+
+.teacher>td {
+    background: yellow;
+}
+
+button {
+    visibility: visible;
+    position: relative;
+    display: block;
+    float: right;
+    right: 31%;
+    bottom: 26.5em;
+    border-radius: 10px;
+}
+
+input[type=checkbox]:checked+label {
+    background-color: white;
+    color: red;
+}
+iframe {
+    background: yellow;
+    opacity: 0.5;
 }
