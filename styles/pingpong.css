@@ -1,12 +1,60 @@
 html {
     width: auto;
-    height: auto;
+    height: 100vh;
 }
 
 body {
     font-family: 'Times New Roman';
     background: linear-gradient(120deg, red, red, 60%, blue)no-repeat, center center fixed;
-    background-size: cover;
+    background-size: 100%;
+  
+}
+header {
+    background: #CCCCCC;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 20px 0 20px;
+    position: relative;
+    width: 98%;
+    padding: 0 0 0 0;
+}
+li {
+    font-family: sans-serif;
+}
+
+li:nth-child(1) {
+    margin: 0 0 0 0;
+}
+
+li,
+a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 5px 0 5px 10px;
+    position: relative;
+    text-align: center;
+}
+
+.met {
+    margin: 20px 20px 20px 20px;
+}
+
+a {
+    font-weight: bold;
+    border: 1px solid black;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: red;
 }
 
 table,

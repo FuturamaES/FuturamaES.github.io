@@ -90,6 +90,7 @@ th {
     padding: 0;
     height: 20%;
     width: 99%;
+    opacity: 0.8;
 }
 
 .footer:click {

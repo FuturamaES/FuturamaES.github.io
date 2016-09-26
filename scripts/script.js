@@ -5,7 +5,7 @@
 $(function() {
   $("body").hide().fadeIn(2000);
 
-  var colors = ['red', 'blue', 'green'];
+  var colors = ['yellow', 'blue', 'green'];
   var random = Math.floor(Math.random() * colors.length);
 
   $('button').on('click', function color() {
