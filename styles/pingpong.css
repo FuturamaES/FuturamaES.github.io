@@ -103,15 +103,20 @@ tr>td:nth-child(2) {
 tr>td:nth-child(3) {
     font-family: 'Times New Roman', sans-serif, serif;
 }
+tr>td:nth-child(1n) {
+    background: pink;
+}
 
 tr {
     background-color: #FFFFFF;
 }
 
 .teacher>td {
+    background: yellow !important;
+}
+tr>td:nth-child(2n) {
     background: yellow;
 }
-
 button {
     visibility: visible;
     position: relative;
