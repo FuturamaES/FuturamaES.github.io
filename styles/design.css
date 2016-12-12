@@ -5,7 +5,9 @@ body {
     -moz-background-width: 100%;
     width: auto;
     height: auto;
-    margin: 0 0 0 0;
+    margin: 0 auto;
+    text-align: center;
+    color: red;
 }
 
 header {
@@ -13,11 +15,11 @@ header {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    margin: 0 10px 0 10px;
+    margin: 0 auto;
     position: relative;
     top: 5px;
-    width: auto;
-    height: auto;
+    width: 50%;
+    height: 50%;
     padding: 0 0 0 0;
 }
 
@@ -149,8 +151,8 @@ button {
 }
 
 header:hover {
-    transform: translate3d(5px, 0px, 0px);
-    transition: transform 0.3s linear;
+    /* transform: translate3d(5px, 0px, 0px);
+     transition: transform 0.3s linear; */
 }
 
 .square {
