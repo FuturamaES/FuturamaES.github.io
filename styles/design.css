@@ -15,11 +15,11 @@ header {
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 20px 0 20px;
     position: relative;
     top: 5px;
-    width: 50%;
-    height: 50%;
+    width: auto;
+    height: auto;
     padding: 0 0 0 0;
 }
 
@@ -98,6 +98,7 @@ th {
 .footer:click {
     background-color: grey;
 }
+
 .movement {
     visibility: hidden;
 }
