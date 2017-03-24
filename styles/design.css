@@ -1,6 +1,6 @@
 html,
 body {
-    background: #AAAAAA;
+    
     -webkit-background-size: 100%;
     -moz-background-width: 100%;
     width: auto;
@@ -9,15 +9,13 @@ body {
     text-align: center;
     color: red;
 }
-
+body {
+    background: url(https://ihunsw.edu.au/wp-content/uploads/2014/07/grey-website-background-illusionapparel2.jpg) center center repeat;
+}
 header {
-    background: #FFFFFF;
-    border: 1px solid black;
-    border-radius: 5px;
+    background: url(../sky.jpg)center center repeat;
     text-align: center;
-    margin: 0 20px 0 20px;
-    position: relative;
-    top: 5px;
+    margin: 0 0 0 0;
     width: auto;
     height: auto;
     padding: 0 0 0 0;
